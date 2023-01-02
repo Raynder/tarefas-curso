@@ -17,6 +17,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
+    <link href="{{asset('css/jobie/style.css')}}" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
@@ -79,5 +80,15 @@
             @yield('content')
         </main>
     </div>
+
+    
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <!-- Required vendors -->
+    <script src="{{asset('vendor/global/global.min.js')}}"></script>
+	<script src="{{asset('vendor/bootstrap-select/dist/js/bootstrap-select.min.js')}}"></script>
+    <script src="{{asset('jobie/js/custom.min.js')}}"></script>
+    <script src="{{asset('jobie/js/deznav-init.js')}}"></script>
 </body>
 </html>
